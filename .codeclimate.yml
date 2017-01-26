@@ -1,0 +1,15 @@
+prepare:
+  fetch:
+    - url: https://raw.githubusercontent.com/stylelint/eslint-config-stylelint/master/eslintrc.json
+      path: .eslintrc.base.json
+
+engines:
+ eslint:
+   channel: "eslint-3"
+   enabled: true
+
+ratings:
+ paths:
+ - "**.js"
+
+exclude_paths:
