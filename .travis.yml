@@ -29,6 +29,3 @@ after_success: |
     npm install -g codeclimate-test-reporter
     codeclimate-test-reporter < coverage/lcov.info
   fi
-notifications:
-  webhooks:
-    - https://webhooks.gitter.im/e/d763493612da45967361
