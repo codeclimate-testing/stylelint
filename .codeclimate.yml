@@ -7,6 +7,9 @@ engines:
  eslint:
    channel: "eslint-3"
    enabled: true
+   checks:
+    Similar code:
+      enabled: false
 
 ratings:
  paths:
